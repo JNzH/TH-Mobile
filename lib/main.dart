@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:th_mobile/bill-form.dart';
 import 'package:th_mobile/bill-summary.dart';
 import 'models/bill.dart';
-import 'package:flutter_slidable/flutter_slidable.dart';
 
 void main() => runApp(const MyApp());
 
@@ -13,7 +11,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     return MaterialApp(
         title: 'Truffle Health demo',
         theme: ThemeData(
