@@ -86,7 +86,6 @@ class _BillSummaryPageState extends State<BillSummaryPage> {
                 );
 
                 if (result == null || !result) {
-                  Navigator.pop(context);
                   return;
                 }
 
